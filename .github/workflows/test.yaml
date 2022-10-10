@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: nitro-2C8G
     strategy:
       matrix:
         java: [8, 11]
@@ -20,7 +20,7 @@ jobs:
         run: mvn clean package -P full
 
   build_jdk_ge_12:
-    runs-on: ubuntu-latest
+    runs-on: nitro-2C8G
     strategy:
       matrix:
         # https://static.azul.com/zulu/bin/
