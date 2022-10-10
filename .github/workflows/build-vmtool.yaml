@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   linux:
-    runs-on: ubuntu-18.04
+    runs-on: nitro-2C8G
 
     steps:
       - uses: actions/checkout@v2
