@@ -23,7 +23,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: nitro-2C8G
+    runs-on: ubuntu-latest
 
     strategy:
       fail-fast: false
